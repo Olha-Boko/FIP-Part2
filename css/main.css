@@ -5,3 +5,34 @@
 {
 	display: none;
 }
+
+img, embed, object, video {
+  max-width: 100%; }
+
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+
+#icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+#icons li {
+	width: 35px;
+}
+
+.space {
+	margin-right: 15px;
+}
+
