@@ -6,8 +6,8 @@
 	display: none;
 }
 
-img, embed, object, video {
-  max-width: 100%; }
+/*img, embed, object, video {
+  max-width: 100%; }*/
 
 html {
   box-sizing: border-box; 
@@ -30,7 +30,7 @@ html {
 
 
 #icons li {
-	min-width: 35px;
+
 }
 
 .space {
