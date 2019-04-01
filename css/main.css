@@ -25,14 +25,105 @@ html {
 	justify-content: flex-end;
 	margin-right: 10px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 
 #icons li {
-	width: 35px;
+	min-width: 35px;
 }
 
 .space {
 	margin-right: 15px;
 }
 
+#headerImage {
+	background: url(../images/bg_small.jpg) center no-repeat;
+	height: 355px;
+}
+
+#greenBox {
+	height: 75px;
+	background-color: #9ebb60;
+}
+
+
+#welcomeInformation h2 {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: #9ebb60;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+
+}
+
+.line {
+	background-color: #9ebb60;
+	height: 3px;
+
+}
+
+#welcomeInformation p {
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	color: #8b8a8c;
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 60px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+
+#welcomeIcons {
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+
+#welcomeIcons img{
+	width: 120px;
+	
+}
+
+#welcomeIconsText h3 {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: #e4ae38;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 22px;
+
+}
+
+#welcomeIconsText p {
+
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	color: #8b8a8c;
+	font-size: 13px;
+
+	}
+
+#welcomeIconsText {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 45px;
+
+}
+
+#forestText {
+	margin-left: 10px;
+}
