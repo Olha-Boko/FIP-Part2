@@ -6,9 +6,6 @@
 	display: none;
 }
 
-/*img, embed, object, video {
-  max-width: 100%; }*/
-
 html {
   box-sizing: border-box; 
 }
@@ -31,20 +28,45 @@ html {
 
 #icons li {
 
+	width: 35px;
+
+
 }
 
-.space {
+#siteContainer {
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.spaceOne {
 	margin-right: 15px;
 }
 
 #headerImage {
 	background: url(../images/bg_small.jpg) center no-repeat;
 	height: 355px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
 }
 
-#greenBox {
-	height: 75px;
+
+#logo img {
+	margin: 0 auto;
+	
+}
+
+
+.greenBox {
+	height: 80px;
 	background-color: #9ebb60;
+	display: flex;
+	flex-direction: column;
+	padding-top: 25px;
+	padding-right: 25px;
+	margin-right: 0px;
 }
 
 
@@ -64,7 +86,13 @@ html {
 .line {
 	background-color: #9ebb60;
 	height: 3px;
+	max-width: 570px;
+	margin: 0 auto;
 
+}
+
+.lineTwo {
+	display: none;
 }
 
 #welcomeInformation p {
@@ -87,6 +115,7 @@ html {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	
 }
 
@@ -95,7 +124,23 @@ html {
 	
 }
 
-#welcomeIconsText h3 {
+.icon
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 130px;
+
+
+}
+
+.icon img {
+	margin: 0 auto;
+}
+
+.icon h3 {
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 	color: #e4ae38;
@@ -103,27 +148,535 @@ html {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-size: 22px;
-
 }
 
-#welcomeIconsText p {
 
+.icon p {
 	font-family: "Open Sans", sans-serif;
 	text-align: center;
 	color: #8b8a8c;
 	font-size: 13px;
+}
 
-	}
+.space {
+	margin-top: 40px;
+}
 
-#welcomeIconsText {
+.fix {
+	margin-top: -11px;
+}
+
+#mainNav button {
+	background: url(../images/burger_m.svg) center no-repeat;
+	width: 30px;
+    height: 30px;
+    border: 0px;
+    margin-left: auto;
+}
+
+
+#mainNav button.rotation
+{
+   -webkit-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   transform: rotate(90deg);
+}
+
+
+#burgerCon {
+  display: none;
+  text-decoration: none;
+}
+
+#burgerCon.toggle {
+  display: block;
+}
+
+#burgerMenu {
+	text-align: center;
+	background-color: #e4ae38;
+}
+
+#burgerMenu li a {
+	font-family: "Oswald", sans-serif;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	line-height: 30px;
+	font-size: 18px;
+
+	
+}
+
+.lineSeparate {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lineMenu {
+	height: 2px;
+	background-color: white;
+}
+
+
+
+.greenBoxTwo {
+	margin-top: 40px;
+	height: 80px;
+	background-color: #9ebb60;
 	display: flex;
-	flex-direction: row;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 45px;
+	flex-direction: column;
+	padding-top: 25px;
+	padding-right: 25px;
+	margin-right: 0px;
+}
+
+.greenBoxTwo h2 {
+	font-family: "Oswald", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-size: 22px;
+	padding-top: 5px;
+	cursor: pointer;
 
 }
 
-#forestText {
+.greenBoxTwo h2:hover{
+	color: #8b8a8c;
+}
+
+
+
+.duties {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	display: none;
+
+	
+}
+
+.text {
+	border: 0;
+	width: 300px;
+	height: 80px;
+	background-color: #e4ae38;
+	margin-top: 0;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 20px;
+	margin-top: -4px;
+	cursor: pointer;
+
+
+}
+
+
+.dutiesImg {
+	position: relative;
+	margin-bottom: 25px;
+
+}
+
+.duties.toggle {
+	display: flex;
+}
+
+#mainFooter {
+	margin-top: 30px;
 	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#mainFooter h2 {
+	text-align: center;
+	color: #8b8a8c;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.greenBoxThree {
+	margin-top: 25px;
+	height: 30px;
+	width: 100%;
+	background-color: #9ebb60;
+
+}
+
+#footerImg {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+	flex-wrap: wrap;
+}
+
+#muma {
+	margin-top: 20px;
+}
+
+#angling {
+	margin-top: 25px;
+}
+
+#guillevin {
+	margin-top: 60px;
+	
+
+}
+
+#melchers {
+	
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 90px;
+}
+
+
+#textTablet {
+	display: none;
+}
+
+.imageChange {
+	display: none;
+}
+
+.greenBoxFour {
+	display: none;
+}
+
+
+/*media query for footer*/
+
+@media screen and (min-width: 383px) {
+	#angling {
+		margin-top: 0px;
+	}
+
+	#guillevin {
+		margin-top: 35px;
+	}
+
+	#melchers {
+		margin-left: 0px;
+	}
+
+}
+
+/*media query fot icons*/
+
+
+@media screen and (min-width: 430px) {
+	.space {
+		margin-top: 11px;
+	}
+
+	.spaceTwo {
+		margin-top: 29px;
+	}
+}
+
+/*media query for footer*/
+
+@media screen and (min-width: 523px) {
+
+	#guillevin {
+		margin-top: 22px;
+	}
+
+}
+
+/*fix for icons*/
+
+@media screen and (min-width: 560px) {
+	.spaceTwo {
+		margin-top: 11px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+
+	.spaceBetween {
+	 	padding-left: 5px;
+	 }
+
+	 .spaceBetweenOne {
+	 	padding-left: 5px;
+	 }
+
+}
+
+/*breaking point*/
+@media screen and (min-width: 664px) {
+	#melchers {
+		margin-top: 10px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	.lineSeparate {
+		display: none;
+	}
+
+	.lineMenu {
+		display: none;
+	}
+
+	#headerImage {
+		background: url(../images/bg.jpg) center no-repeat;
+
+	}
+	button {
+		display: none;
+	}
+
+	.greenBox {
+		display: none;
+	}
+
+	#burgerCon {
+		display: flex;
+		flex-direction: column;
+
+
+	}
+	 hr {
+	 	display: none;
+	 }
+
+	 #mainNav li {
+	 	display: inline-block;
+	 	margin-right: 10px;
+	 	margin-left: 10px;
+	 	
+
+	 }
+
+	 #burgerMenu {
+
+	 	background-color: #9ebb60;
+	 	height: 80px;
+	 	padding-top: 10px;
+	 	padding-bottom: 0;
+
+	 }
+
+	 #burgerMenu li a {
+	 	font-size: 24px;
+
+	 }
+
+
+	 #textTablet{
+	 	margin-left: -210px;
+	 	display: block;
+	 	order: -1;
+	 }
+
+
+	 #textTablet h2 {
+	 	width: 200px;
+	 	padding-top: 40px;
+	 	padding-left: 15px;
+	 	color: white;
+	 	text-transform: uppercase;
+	 	font-family: "Oswald", sans-serif;
+	 	font-size: 22px;
+	 	line-height: 27px;
+	 }
+
+	 #textTablet p {
+	 	padding-top: 15px;
+	 	padding-left: 14px;
+	 	text-transform: uppercase;
+	 	color: white;
+	 	font-family: "Open Sans", sans-serif;
+	 	font-size: 18px;
+
+	 }
+
+	 #welcomeIcons {
+	 	margin-left: 60px;
+	 	margin-right: 60px;
+	 }
+
+	 #welcomeInformation h2 {
+	 	font-size: 39px;
+	 }
+
+	 #welcomeInformation p {
+	 	margin-left: 70px;
+	 	margin-right: 70px;
+	 	text-align: center;
+	 	font-size: 18px;
+	 	line-height: 25px;
+
+	 }
+
+	 .greenBoxTwo {
+	 	display: none;
+	 }
+
+	 .duties {
+	 	display: flex;
+	 	flex-direction: row;
+	 	margin-top: 45px;
+	 	justify-content: center;
+	 }
+
+	 .spaceBetween {
+	 	padding-right: 12.5px;
+	 	padding-left: 0px;
+	 }
+
+	 .spaceBetweenTwo {
+	 	padding-left: 12.5px;
+	 }
+
+	 .spaceBetweenOne {
+	 	padding-right: 12.5px;
+	 	padding-left: 0px;
+	 }
+
+	 .spaceBetweenFour {
+	 	padding-left: 12.5px;
+
+	 }
+
+	 .smallImage {
+	 	display: none;
+	 }
+
+	 .imageChange  {
+	 	display: flex;
+	 }
+
+	 .textTabletOne {
+	 	width: 625px;
+	 	height: 84px;
+	 }
+
+	 #welcomeIcons {
+	 	margin-bottom: 45px;
+	 }
+
+	 #mainFooter {
+	 	margin-top: 45px;
+	 }
+
+	 #mainFooter h2 {
+	 	font-size: 22px;
+	 }
+
+	 .greenBoxThree {
+	 	display: none
+	 }
+
+	 .greenBoxFour {
+	    display: block;
+	    margin-top: 25px;
+	    height: 30px;
+	    width: 100%;
+	    background-color: #9ebb60;
+
+     }
+
+     .lineTwo {
+       display: block;
+       background-color: #9ebb60;
+	   height: 3px;
+	   max-width: 570px;
+	   margin: 0 auto;
+
+     }
+
+
+
+}
+
+/*fixing problem with images*/
+
+@media screen and (min-width: 938px) {
+	.duties {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+}
+
+@media screen and (min-width: 958px) {
+	 .spaceBetween {
+	 	padding-left: 5px;
+	 	padding-right: 0px;
+	 }
+
+	 .spaceBetweenTwo {
+	 	padding-right: 15px;
+	 	padding-left: 0px;
+	 }
+
+	 .spaceBetweenOne {
+	 	padding-right: 15px;
+
+	 }
+
+	 .spaceBetweenFour {
+	 	padding-left: 0px;
+
+	 }
+
+
+}
+
+
+/*desktop version*/
+
+@media screen and (min-width: 1024px) {
+	.duties {
+		justify-content: center;
+
+
+	}
+
+	.spaceBetween {
+		padding-left: 25px;
+	}
+
+	.spaceBetweenTwo {
+	 	padding-right: 25px;
+}
+
+     .spaceBetweenOne {
+	 	padding-right: 25px;
+
+	 }
+
+	 #textTablet h2 {
+	 	font-size: 39px;
+	 	width: 300px;
+	 	line-height: 45px;
+	 }
+
+	 #textTablet p {
+	 	font-size: 28px;
+	 	padding-top: 50px;
+	 }
+
+	 #welcomeInformation p {
+	 	font-size: 20px;
+	 	line-height: 30px;
+	 }
+
+	 .icon p {
+	 	font-size: 16px;
+	 }
+
 }

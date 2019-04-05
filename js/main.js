@@ -1,12 +1,32 @@
-//create jar, name jar, place string in jar
-var firstName = "Midterm";
+// for main menu
 
-//alert is method (built in function in JS)
-// alert("Hello" + firstName);
+(function(){
+	"use strict";
+	
+	console.log("fired");
 
-//modern JS
-// alert(`Hello ${firstName}`);
+	var button = document.querySelector("#button");
+	var burgerCon = document.querySelector("#burgerCon");
 
-// console.log("Hello " + firstName);
+	function hamburgerMenu() {
+		burgerCon.classList.toggle("toggle");
+		button.classList.toggle("rotation");
+	}
 
-console.log("javascript linked up");
+	button.addEventListener("click", hamburgerMenu, false);
+
+
+	// for images hide and show
+
+
+	var buttonTwo = document.querySelector('.greenBoxTwo');
+	var hideImage = document.querySelector('.duties');
+
+	function hideImages() {
+		hideImage.classList.toggle('toggle');
+	}
+
+	buttonTwo.addEventListener('click', hideImages, false);
+
+		
+})();
