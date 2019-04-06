@@ -272,6 +272,7 @@ html {
 	padding-top: 20px;
 	margin-top: -4px;
 	cursor: pointer;
+	font-weight: bold;
 
 
 }
@@ -434,7 +435,7 @@ html {
 		background: url(../images/bg.jpg) center no-repeat;
 
 	}
-	button {
+	#button {
 		display: none;
 	}
 
@@ -679,4 +680,212 @@ html {
 	 	font-size: 16px;
 	 }
 
+}
+
+
+/*ABOUT PAGE*/
+
+
+
+#aboutInformation h2 {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: #9ebb60;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+
+}
+
+#aboutInformation p {
+	font-family: "Open Sans", sans-serif;
+	text-align: left;
+	color: #8b8a8c;
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+ .lineAbout {
+       display: block;
+       background-color: #9ebb60;
+	   height: 3px;
+	   max-width: 570px;
+	   margin: 0 auto;
+	   margin-top: 25px;
+	   margin-bottom: 50px;
+
+     }
+
+  .aboutPicture {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+  .aboutSpace {
+  	padding-bottom: 25px;
+  	
+  }
+
+.threeImgAbout {
+	display: none;
+}
+
+	
+
+@media screen and (min-width: 625px) {
+	.aboutSpace {
+  	padding-right: 25px;
+  	
+  }
+
+
+}
+
+@media screen and (min-width: 768px) {
+	#aboutInformation h2 {
+		font-size: 39px;
+	}
+
+	#aboutInformation {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
+	#aboutInformation p {
+		font-size: 17px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+        .aboutImgSpace {
+        	padding-right: 25px;
+        }
+
+
+        .threeImgAbout {
+        	display: block;
+        }
+}
+
+
+
+/*MEMBERSHIP PAGE*/
+
+.membershipPicture {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-left: 15px;
+	
+}
+
+.membershipSmall {
+	margin-right: 35px;
+	margin-bottom: 25px;
+}
+
+
+.dutiesMembership {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#membershipText {
+	margin-top: -10px;
+	width: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+
+#membershipText h4 {
+	font-size: 50px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: #9ebb60;
+	font-weight: bold;
+	line-height: 60px;
+	margin-bottom: 35px;
+
+}
+
+
+#membershipText p {
+	font-size: 120px;
+	font-family: "Oswald", sans-serif;
+	font-weight: bold;
+	color: #e4ae38;
+}
+
+#buttonMembership {
+	margin-top: 35px;
+	border: none;
+	text-decoration: none;
+	height: 50px;
+	width: 170px;
+	background-color: #e4ae38;
+	cursor: pointer;
+
+}
+
+#buttonMembership:hover {
+	background-color: #e48210;
+}
+
+#buttonMembership h5 {
+	font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+	color: white;
+}
+
+.membershipBig {
+	display: none;
+}
+
+
+@media screen and (min-width: 650px) {
+	.membershipBig {
+		display: block;
+		margin-right: 35px;
+	    margin-bottom: 25px;
+
+
+	}
+
+	.membershipSmall {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.membershipPicture {
+		margin-left: 70px;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	#aboutInformation p {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.membershipBig {
+		margin-right: 80px;
+	}
 }
