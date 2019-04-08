@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 /*CSS document*/
 
@@ -304,7 +305,7 @@ html {
 }
 
 .greenBoxThree {
-	margin-top: 25px;
+	margin-top: 50px;
 	height: 30px;
 	width: 100%;
 	background-color: #9ebb60;
@@ -583,7 +584,7 @@ html {
 
 	 .greenBoxFour {
 	    display: block;
-	    margin-top: 25px;
+	    margin-top: 50px;
 	    height: 30px;
 	    width: 100%;
 	    background-color: #9ebb60;
@@ -837,20 +838,15 @@ html {
 	width: 170px;
 	background-color: #e4ae38;
 	cursor: pointer;
+	font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	color: white;
 
 }
 
 #buttonMembership:hover {
 	background-color: #e48210;
-}
-
-#buttonMembership h5 {
-	font-size: 20px;
-	font-family: "Open Sans", sans-serif;
-	text-transform: uppercase;
-	/*padding-left: 15px;
-	padding-right: 15px;*/
-	color: white;
 }
 
 .membershipBig {
@@ -879,13 +875,225 @@ html {
 }
 
 
+@media screen and (min-width: 1010px) {
+
+	.membershipBig {
+		margin-right: 80px;
+	}
+
+}
+
+
 @media screen and (min-width: 1024px) {
 	#aboutInformation p {
 		font-size: 20px;
 		line-height: 30px;
 	}
 
-	.membershipBig {
-		margin-right: 80px;
+	
+}
+
+
+/*PROJECT PAGE*/
+
+
+.dutiesProjects {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+
+.projectsPicture {
+	
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.projectsText {
+	margin-top: 25px;
+	width: 300px;
+
+}
+
+.projectsText h4{
+	font-family: "Oswald", sans-serif;
+	color: #616366;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 35px;
+
+}
+
+.projectLine {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 3px;
+	background-color: #9ebb60;
+
+}
+
+.buttonProjects {
+	width: 160px;
+	height: 50px;
+	border: none;
+	text-decoration: none;
+	background-color: #e4ae38;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	color: white;
+	/*margin-bottom: 50px;*/
+
+}
+
+.buttonProjects:hover {
+	background-color: #e48210;
+
+}
+
+.projectPatagraph {
+	display: none;
+}
+
+.projectBig {
+	display: none;
+}
+
+@media screen and (min-width: 600px) {
+	.projectSmall {
+		margin-right: 35px;
 	}
 }
+
+@media screen and (min-width: 768px) {
+
+	.projectPatagraph {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		display: block;
+		color: #616366; 
+		font-size: 14px;
+		font-family: "Open Sans", sans-serif;
+		line-height: 20px;
+
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+	.projectSmall {
+		display: none;
+
+	}
+
+	.projectBig {
+		display: block;
+		margin-right: 35px;
+	}
+
+}
+
+/*EVENTS PAGE*/
+
+
+.eventsSmallLine {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 3px;
+	background-color: #9ebb60;
+
+}
+
+
+.eventsLine {
+	display: none;
+}
+
+.eventsText {
+	width: 300px;
+}
+
+.eventsText h4{
+	font-family: "Oswald", sans-serif;
+	color: #616366;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 35px;
+
+}
+
+.eventDate {
+	margin-bottom: 25px;
+}
+
+.eventDate h5 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #616366;
+
+}
+
+
+.eventsPatagraph {
+	display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+	.eventsSmall {
+		margin-right: 35px;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	.eventsSmall {
+		display: block;
+	}
+
+	.eventsPatagraph {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		display: block;
+		color: #616366; 
+		font-size: 14px;
+		font-family: "Open Sans", sans-serif;
+		line-height: 20px;
+	}
+
+
+	.eventsLine {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+	height: 3px;
+	background-color: #9ebb60;
+
+}
+
+    .eventsSmallLine {
+    	display: none
+    }
+
+    .eventsText {
+	width: 460px;
+}
+}
+
+
+
+
+
+
+
