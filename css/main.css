@@ -354,6 +354,10 @@ html {
 	display: none;
 }
 
+.greenBoxFourOne {
+	display: none;
+}
+
 
 /*media query for footer*/
 
@@ -591,6 +595,16 @@ html {
 
      }
 
+
+     .greenBoxFourOne {
+     	display: block;
+	    margin-top: 25px;
+	    height: 30px;
+	    width: 100%;
+	    background-color: #9ebb60;
+
+     }
+
      .lineTwo {
        display: block;
        background-color: #9ebb60;
@@ -701,7 +715,7 @@ html {
 
 }
 
-#aboutInformation p {
+    #aboutInformation p {
 	font-family: "Open Sans", sans-serif;
 	text-align: left;
 	color: #8b8a8c;
@@ -779,7 +793,7 @@ html {
 
 /*MEMBERSHIP PAGE*/
 
-.membershipPicture {
+    .membershipPicture {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -999,6 +1013,12 @@ html {
 		margin-right: 35px;
 	}
 
+
+	.projectPatagraph {
+		font-size: 15px;
+		line-height: 19px;
+	}
+
 }
 
 /*EVENTS PAGE*/
@@ -1066,7 +1086,7 @@ html {
 		margin-bottom: 20px;
 		display: block;
 		color: #616366; 
-		font-size: 14px;
+		font-size: 15px;
 		font-family: "Open Sans", sans-serif;
 		line-height: 20px;
 	}
@@ -1090,6 +1110,458 @@ html {
 	width: 460px;
 }
 }
+
+
+/*CONTACT FORM*/
+
+
+
+.contactInformation h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: #9ebb60;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+
+
+.hide {
+	display: none;
+}
+
+
+.mainCon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 35px;
+}
+
+.contactFormOne {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+form {
+	margin-top: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+input {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border: 2px solid #e4ae38;
+ 	width: 300px;
+ 	height: 50px;
+ 	background-color: white;
+ 	padding-left: 5px;
+ 	margin-bottom: 30px;
+}
+
+input::placeholder {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.34px;
+	padding-top: 16px;
+	margin-left: 5px;
+	text-transform: uppercase;
+
+}
+
+
+textarea::placeholder {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.34px;
+	padding-top: 16px;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+
+textarea {
+	border: 2px solid #e4ae38;
+	height: 250px;
+	padding-left: 5px;
+	padding-top: 10px;
+
+}
+
+
+.colortext {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	color: #6c6b6c;
+	letter-spacing: 0.34px;
+
+}
+
+
+label {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	color: #6c6b6c;
+	letter-spacing: 0.34px;
+	text-transform: uppercase;
+	margin-left: 20px;
+
+}
+
+select {
+	-webkit-appearance: none;
+    -webkit-border-radius: 0px;
+ 	width: 365px;
+ 	height: 49px;
+ 	background-color: white;
+ 	border:2px solid #e4ae38;
+ 	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	color: #6c6b6c;
+	letter-spacing: 0.34px;
+	text-transform: uppercase;
+}
+
+#participation {
+	width: 300px;
+}
+
+#formFive {
+	margin-top: 30px;
+}
+
+#comments {
+	width: 300px;
+}
+
+
+#buttonForm {
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: left;
+
+	
+}
+
+
+.buttonFormOne {
+	border: none;
+	margin-top: 30px;
+	width: 300px;
+	height: 50px;
+	border: none;
+	text-decoration: none;
+	background-color: #e4ae38;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
+
+.buttonFormOne:hover {
+	background-color: #e48210;
+}
+
+.mapText h2 {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: #9ebb60;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+
+}
+
+
+
+.contactImage {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+
+.contectTextThree {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+
+#contactText {
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+
+.contactTextTwo {
+	font-size: 20px;
+	color: #6c6b6c;
+	font-family: "Open Sans", sans-serif;
+	line-height: 25px;
+}
+
+.lineContact {
+	margin-top: 15px;
+
+	border:none;
+	height: 3px;
+	width: 300px;
+	background-color: #9ebb60;
+}
+
+.adress {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+#contactInformationTwo h2 {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: #9ebb60;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+
+}
+
+.contactTextLine {
+
+	background-color: #9ebb60;
+        height: 3px;
+        max-width: 950px;
+        margin: 0 auto;
+
+}
+
+.contactTwoText {
+	display: none;
+}
+
+
+.contactTextLine {
+	display: none;
+}
+
+.contactTextLineTwo {
+	background-color: #9ebb60;
+   height: 3px;
+   max-width: 570px;
+   margin: 0 auto;
+}
+
+
+@media screen and (min-width: 600px) {
+	#comments {
+		width: 600px;
+	}
+
+
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+	#contactForm {
+		width: 768px;
+
+	}
+
+	#contactInformation h2 {
+		font-size: 39px;
+	}
+
+	#contactInformation {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
+	#emailAddress {
+		width: 625px;
+	}
+
+	#participation {
+		width: 625px;
+
+	}
+
+
+	.hide {
+		display: block;
+	}
+
+	#comments {
+		width: 625px;
+	}
+
+	label {
+		margin-top: 25px;
+		margin-left: 0px;
+		margin-bottom: 30px;
+	}
+
+	#buttonForm {
+		width: 625px;
+		justify-content: flex-end;
+	}
+
+	#name {
+		margin-right: 25px;
+	}
+
+	#phone {
+		margin-right: 25px;
+	}
+
+	.mapText {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.contactImage {
+		margin-right: 25px;
+	}
+
+     .contactTextTwo {
+     	margin-top: 20px;
+     }
+
+     .contactInformation h2 {
+     	font-size: 39px;
+     }
+
+     #contactInformationTwo h2 {
+		font-size: 39px;
+	}
+
+
+	
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+	.contactTextLineTwo {
+	display: none;
+}
+
+	.contactTextLine {
+	display: block;
+}
+
+	.contactTwoText {
+	display: flex;
+}
+
+	#mainCon {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	#contactForm {
+		width: 625px;
+
+	}
+
+	.contactInformation {
+		display: none;
+	}
+
+	.contactInformationFlex {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	#contactInformationTwo {
+		width: 775px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+	}
+
+	.contactUs {
+		margin-left: 125px;
+	}
+
+	.visitUs {
+		margin-left: 50px;
+	}
+
+	.mapText {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 25px;
+		margin-top: -50px;
+	}
+	.contactImage {
+		margin-right: 0px;
+		margin-top: 0px;
+	}
+
+	.mapText h2 {
+		margin-top: 0px;
+	}
+
+	.aboutInformation  {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	.contactTextLine {
+		background-color: #9ebb60;
+        height: 3px;
+        max-width: 950px;
+        margin: 0 auto;
+	}
+
+	.aboutInformation h2 {
+		margin-left: 600px;
+	}
+
+	
+  
+	
+
+
+}
+
+
+
 
 
 
