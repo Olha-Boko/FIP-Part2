@@ -75,40 +75,125 @@
 			    </div>	
 			</div>
 		</header>
-		<div id="aboutInformation">
-			<h2>Membership</h2>
-			<div class="line aboutText"></div>
-			<p>Your membership also adds another voice to our efforts in protecting and enhancing aquatic habitats in the London & area community. You've taken a lot of enjoyment from this unique fishery. it's time to give back by being part of the solution.</p> 
-			<p>The TRAA meets every second Wednesday of each month. We always try to get the meetings started by 7:00pm so try to be there a few minutes beforehand. The venue is the Western OntarioFish & Game Protective Association's clubhouse located just east of the Dearness Home on Southdale Road (East), on the North side of Southdale Road. </p>
+		<div class="contactInformationFlex">
+		<div id="contactInformationTwo">
+			<div class="contactUs">
+			<h2 class="contactOneText">Contact Us</h2>
+		    </div>
+		    <div class="visitUs">
+			<h2 class="contactTwoText">Visit Us</h2>
+			</div>
 		</div>
 			
+		</div>
+		<div class="contactTextLine"></div>
+		<div class="contactTextLineTwo"></div>
+
+
+
+
+		<section id="mainCon">
+			<h2 class="hidden">Contact Page</h2>
+			<div id="contactOne">
+			<form id="contactForm" action="form.php" method="post">
+
+                <div id="formOne">
+                	<h4 class="hidden">Part One of Contact</h4>
+				<input type="text" required id="name" name="Name" size="32" placeholder="name" class="colortext">
+		
+	
+			</div>
+			<div><h4 class="hidden">Part Two of Contact</h4>
+				<input type="text" required id="surname" size="32" placeholder="surname" class="colortext">
+
+			</div>
+
+			<div id="formTwo">
+                	<h4 class="hidden">Part Three of Contact</h4>
+
+				<input type="tel" required id="phone" size="32" placeholder="Phone" class="colortext">
+				
+			</div>
+			<div><h4 class="hidden">Part Four of Contact</h4>
+				<input type="number" required id="MembershipNum" size="32" placeholder="Membership Number" class="colortext">
+				
+			</div>
+
+			<div id="formThree">
+                	<h4 class="hidden">Part Five of Contact</h4>
+
+				<input type="email" required id="emailAddress" size="32" placeholder="Email" class="colortext">
+		
+
+			</div>
+			<div id="formFour">
+				<h4 class="hidden">Part Six of Contact</h4>
+				<label class="hidden">Participation:</label>
+				<select id="participation">
+					<option value="">Participation:</option>
+					<option value="fundraising">Fundraising</option>
+					<option value="volunteering">Volunteering</option>
+					<option value="membership"> Membership</option>
+					<option value="events">Events</option>
+					<option value="learningActivities"> Learning Activities</option>
+				</select>
+			</div>
+			<div id="formFive">
+                	<h4 class="hidden">Part Seven of Contact</h4>
+
+				<label for="comments" class="hide">Your Message:</label>
+				<textarea id="comments" name="comment" rows="5"
+				cols="33" class="colortext" placeholder="Write Your Message ..."></textarea>
+		
+
+			</div>
+			<div id="buttonForm">
+				<button class="buttonFormOne"  name="button1">Send</button>
+			</div>
+
+			</form>
+
+		</div>
+
+
+		<div class="contactInformation">
+			<h2>Visit Us</h2>
+			<div class="line aboutText"></div>
+		</div>
+		<div class="mapText">
+
+		<div class="contactImage">
+			<img src="images/map.jpg" alt="Map">
+		</div>
+		<div class="contectTextThree">
+		<div id="contactText">
+			<div class="contactTextTwo">
+			<h3 class="hidden">Contact Text</h3>
+			<p>790 Southdale Road East,</p>
+			<p>London, Ontario</p>
+			<div id="lineTwo">
+			<div class="lineContact"></div>
+			</div>
+			<p class="adress">Mailing address:</p>
+			<p>Thames River Anglers</p>
+			<p>Association</p> 
+			<p>2202 Coronation Drive</p> 
+			<p>London, Ontario</p> 
+			<p>N6G 0B9</p>
+		    </div>
+
+		</div>
+	</div>
+</div>
+
 
 		
-		<div class="lineAbout"></div>
 
-			<div>
-			<h2 class="hidden">Information about Membership</h2>
-			<div class="membershipPicture">
-				<h3 class="hidden">Membership</h3>
+		</section>
 
-				<div class="dutiesMembership">
-			    <a href="#">
-				<img class="membershipSmall"  src="images/membership_small.jpg" alt="Members are talking">
-			    <img class="membershipBig"   src="images/membership.jpg" alt="Members are talking"></a>
 
-			    </div>
-			    <div id="membershipText">
-			    	<h4>To be a TRAA Member</h4>
-			    	<p>$25</p>
-			    	<button id="buttonMembership">Membership</button>
-	
-			    </div>    	
-			    </div>
+
 			    <div class="greenBoxThree"></div>
-			
-			</div>
-			
-
 			<div class="greenBoxFour"></div>
 		    
 		    <footer id="mainFooter">
@@ -144,13 +229,9 @@
 		    	
 		    	
 		    </footer>
-		</div> 
-		    
-		    
+		</div>
 		    
 
-
-	
 
 		<!-- load js at bottom so DOM gets built-->
 		<script src="js/main.js"></script>
