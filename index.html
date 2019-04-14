@@ -9,6 +9,8 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans%7COswald:300,400,600" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
 	</head>
 	<body>
 		<h1 class="hidden">TRAA Volunteer Organization</h1>
@@ -46,7 +48,7 @@
 					<div class="greenBox">	
 					<button id="button"></button>
 					</div>
-					<div id="burgerCon">
+					<div id="burgerCon" class="animation">
 						<ul id="burgerMenu">
 							<li class="lineSeparate"><a href="index.html">Home</a></li>
 							<li class="lineMenu"></li>
@@ -66,8 +68,8 @@
 					
 			</nav>
 			<div id="headerImage">
-				<div id="logo">
-				<img src="images/logo.png" alt="Main Logo" >
+				<div id="logo" >
+				<img src="images/logo_new.png" alt="Main Logo" >
 				</div>
 				<div id="textTablet">
 					<h2>Dedication today for tomorrow</h2>
@@ -76,29 +78,31 @@
 			</div>
 		</header>
 		<div id="welcomeInformation">
-			<h2>Welcome to the TRAA</h2>
+			<div class="textEffect">
+			<h2 class="titles">Welcome to the TRAA</h2>
+		    </div>
 			<div class="line"></div>
 			<p>The TRAA is a volunteer organization, governed by a formal constitution and by-laws. An elected Executive, with the guidenceof the General Membership, sets the policies and direction for the TRAA.The TRAA Works at a Grassroots Level Within the Thames River Watershed to:</p>
 		</div>
 			<div id="welcomeIcons">
 				<div class="icon fix">
 					<img src="images/fish.svg" alt="Fish Icon">
-					<h3>Distribution</h3>
+					<h3  class="iconAnim">Distribution</h3>
 					<p>Protect, enhance and regenerate a viable, multispecies, year-round fishery.</p>
 				</div>
-				<div class="icon">
+				<div class="icon animOne">
 					<img src="images/nature.svg" alt="Forest">
-					<h3>Protection</h3>
+					<h3 class="iconAnimTwo">Protection</h3>
 					<p>Promote and participate in environmental clean-up, pollution control and rehabilitation.</p>
 			    </div>
-			    <div class="icon space">
+			    <div class="icon space animTwo">
 			    	<img src="images/hook.svg" alt="Fish hook">
-			    	<h3>Promotion</h3>
+			    	<h3 class="iconAnimThree">Promotion</h3>
 			    	<p>Promote environmentally sound, safety and respectful sport fishing practices in the Thames River.</p>
 			    </div>
-			    <div class="icon space spaceTwo"> 
+			    <div class="icon space spaceTwo animThree"> 
 			    	<img src="images/hands.svg" alt="Three Hands">
-			    	<h3>Cooperation</h3>
+			    	<h3 class="iconAnimFour">Cooperation</h3>
 			    	<p>Form partnerships with community businesses, government agencies,and other in the River.</p>
 			    </div>
 
@@ -108,30 +112,30 @@
 			<div>
 			<h2 class="hidden">Short Information About TRAA</h2>
 			<div class="greenBoxTwo">
-				<h2>OUR DUTIES</h2>
+				<h2 class="dutiesOur">OUR DUTIES</h2>
 			</div>
 			<div class="duties">
 
 				<div class="dutiesImg">
-			    <a href="#">
+			    <a href="membership.html">
 				<img src="images/environment_scr_small.jpg" alt="Two People" class="smallImage">
 				<img src="images/environment_scr.jpg" alt="Two People" class="imageChange"></a>
 				<h3 class="text textTabletOne">Environment</h3>
 			    </div>
 			    <div class="dutiesImg spaceBetween">
-				<a href="#"><img src="images/fundraising.jpg" alt="A Man Carries Buckets"></a>
+				<a href="projects.html"><img src="images/fundraising.jpg" alt="A Man Carries Buckets"></a>
 				<h3 class="text">Fundraising</h3>
 			    </div>
 			    <div class="dutiesImg spaceBetweenTwo">
-				<a href="#"><img src="images/learning.jpg" alt="A man and child"></a>
+				<a href="events.html"><img src="images/learning.jpg" alt="A man and child"></a>
 				<h3 class="text">Learning Tour</h3>
 			    </div>
 			     <div class="dutiesImg spaceBetweenOne">
-				<a href="#"><img src="images/volunteering.jpg" alt="People near the river"></a>
+				<a href="events.html"><img src="images/volunteering.jpg" alt="People near the river"></a>
 				<h3 class="text">Volunteering</h3>
 			    </div>
 			    <div class="dutiesImg spaceBetweenFour">
-				<a href="#"><img src="images/growing.jpg" alt="Person with growing fry"></a>
+				<a href="events.html"><img src="images/growing.jpg" alt="Person with growing fry"></a>
 				<h3 class="text">Growing Fry</h3>
 			    </div >
 			    <div class="greenBoxThree"></div>
@@ -172,6 +176,11 @@
 		    		</li>
 		    	   
 		    	</ul>
+
+		    	<div class="back">
+		    		<h3><a href="#" id="backToTop">Back to Top</a></h3>
+		    		
+		    	</div>
 		    	
 		    	
 		    </footer>
@@ -180,6 +189,6 @@
 	
 
 		<!-- load js at bottom so DOM gets built-->
-		<script src="js/main.js"></script>
+		<script src="js/mainhome.js"></script>
 	</body>
 </html>

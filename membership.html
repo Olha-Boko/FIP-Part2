@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans%7COswald:300,400,600" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 	</head>
 	<body>
 		<h1 class="hidden">TRAA Volunteer Organization</h1>
@@ -67,7 +68,7 @@
 			</nav>
 			<div id="headerImage">
 				<div id="logo">
-				<img src="images/logo.png" alt="Main Logo" >
+				<img src="images/logo_new.png" alt="Main Logo" >
 				</div>
 				<div id="textTablet">
 					<h2>Dedication today for tomorrow</h2>
@@ -76,7 +77,9 @@
 			</div>
 		</header>
 		<div id="aboutInformation">
-			<h2>Membership</h2>
+			<div class="textEffect">
+			<h2 class="titles">Membership</h2>
+		    </div>
 			<div class="line aboutText"></div>
 			<p>Your membership also adds another voice to our efforts in protecting and enhancing aquatic habitats in the London & area community. You've taken a lot of enjoyment from this unique fishery. it's time to give back by being part of the solution.</p> 
 			<p>The TRAA meets every second Wednesday of each month. We always try to get the meetings started by 7:00pm so try to be there a few minutes beforehand. The venue is the Western OntarioFish & Game Protective Association's clubhouse located just east of the Dearness Home on Southdale Road (East), on the North side of Southdale Road. </p>
@@ -99,14 +102,45 @@
 			    </div>
 			    <div id="membershipText">
 			    	<h4>To be a TRAA Member</h4>
-			    	<p>$25</p>
+			    	<div class="textEffect">
+			    	<p class="titles">$25</p>
+			        </div>
 			    	<button id="buttonMembership">Membership</button>
 	
 			    </div>    	
 			    </div>
-			    <div class="greenBoxThree"></div>
-			
+	
 			</div>
+			<div class="merch">
+			<div class="imageContainer">
+			<div class="sale">
+				<img src="images/hat.jpg" alt="TRAA hat" class="opc">
+				<img src="images/cup.jpg" alt="TRAA cup">
+				<img src="images/t-shirts.jpg" alt="TRAA t-shirt">
+			</div>
+			<div class="headInform">
+				<h2>Our Products</h2>
+			</div>
+		    
+		    <div id="scrollBut">
+		    	<div class="scrollButTwo">
+		    	<div class="pushAnim pushButTwo"></div>
+				<div class="push pushBut"></div>
+			    </div>
+			</div>
+			</div>
+			<div class="merchInfo">
+				<h2 class="hidden">Information About Merch</h2>
+				<div class="lineMerch"></div>
+				<div class="merchInfoText">
+				<p>Many of you have already ordered the TRAA tee shirts, but if you haven't you had better hurry because many sizes are almost sold out! These are a steal at $15 each.
+				There are three different hat colours available: Clay Grey, Burnt Orange and Taupe. If you thought the tee's were a good deal, all three editions of these hats are also priced at $15 each.
+				We now have some nice stickers featuring the TRAA logo that you can display on your vehicle, boat, lunchbox or wherever you like. </p>
+			    </div>
+			    <div class="lineMerch"></div>
+			</div>
+		    </div>
+			<div class="greenBoxThree"></div>
 			
 
 			<div class="greenBoxFour"></div>
@@ -141,6 +175,10 @@
 		    		</li>
 		    	   
 		    	</ul>
+		    	<div class="back">
+		    		<h3><a href="#" id="backToTop">Back to Top</a></h3>
+		    		
+		    	</div>
 		    	
 		    	
 		    </footer>
@@ -153,6 +191,6 @@
 	
 
 		<!-- load js at bottom so DOM gets built-->
-		<script src="js/main.js"></script>
+		<script src="js/membership.js"></script>
 	</body>
 </html>
