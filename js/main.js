@@ -13,20 +13,11 @@
 		button.classList.toggle("rotation");
 	}
 
-	button.addEventListener("click", hamburgerMenu, false);
-
-
 	// for images hide and show
 
 
-	var buttonTwo = document.querySelector('.greenBoxTwo');
-	var hideImage = document.querySelector('.duties');
 
-	function hideImages() {
-		hideImage.classList.toggle('toggle');
-	}
-
-	buttonTwo.addEventListener('click', hideImages, false);
+    button.addEventListener("click", hamburgerMenu, false);
 
 		
 })();
